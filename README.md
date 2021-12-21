@@ -2,7 +2,7 @@
 
 Repository for maintaining all the Tasks related to the Internship Program I am working on for LetsGrowMore
 
-**BEGINNER LEVEL TASKS*
+**BEGINNER LEVEL TASKS**
 
 TASK 1 : Iris flower Classification
 
@@ -17,3 +17,9 @@ We need to read the image in RBG format and then convert it to a grayscale image
 TASK 1 : Prediction Using Decision Tree Classifier()
 
 Here we are given a Iris Flower Classification Dataset with the measurents of petals and sepals of the Species. Using the dataset we had to create the Decision Tree classifier and visualize it graphically. By using Decission Tree Classifier I have successfully predicted the species using confusion matrix and classification report with an accuracy of 98%
+
+**ADVANCED LEVEL TASKS**
+
+TASK 1 : Develop A Neural Network That Can Read Handwriting
+
+In this task we have to build a model that can  read the handwritting using CNN and Tensorflow. MNIST data is used for the predictions, we can load the dataset using keras library.After that we need to process with the data cleaning i.e. reshape the image dimensions and convert the dependent variables from integers to binary class matrix. Design the model using Tensorflow and keras libraries and than compile the model to test the accuracy. To test the model  save an image with a variable name and predict the output using .predict() function. In this project I have successfully trained the model using Tensorflow and CNN and have gained an accuracy of 98.2%.
